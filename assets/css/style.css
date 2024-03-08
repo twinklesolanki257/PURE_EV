@@ -1,0 +1,595 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
+.burger-menu {
+    font-size: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+/* nav-bar */
+.nav-bar {
+    height: 100px;
+    /* width: 100%; */
+    /* background-color: rgb(46, 155, 205); */
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    top: 0;
+    /* background: linear-gradient(90deg blue, rgb(46, 155, 205)) ; */
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.list {
+    display: flex;
+}
+
+.list li a {
+    font-size: 25px;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.list li a:hover {
+    color: #3B3B3B;
+}
+
+.btn {
+    border: none;
+    background-color: #3B3B3B;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* home main */
+.main {
+    height: 100vh;
+    background-image: url("./main-img.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home-main {
+    padding-top: 30px;
+}
+
+.h {
+    color: #3B3B3B;
+    font-size: 40px;
+    margin-top: 10px;
+
+}
+
+.img {
+    height: 80px;
+}
+
+.home-content {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.home-btn {
+    border: none;
+    background-color: #3B3B3B;
+    height: 50px;
+    width: 180px;
+    font-weight: bolder;
+    border-radius: 35px;
+    margin-top: 70px;
+    margin-left: 140px;
+    text-align: center;
+    font-family: 'Barriecito', cursive;
+}
+
+.home-btn2 {
+    font-weight: bolder;
+    font-family: 'Barriecito', cursive;
+}
+
+.home-main button {
+    border: none;
+    background-color: #3B3B3B;
+    height: 50px;
+    width: 200px;
+    border-radius: 35px;
+}
+
+.home-btn:hover {
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.home-btn2:hover {
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+/* about-section */
+.about {
+    background-image: url(./about2.webp);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about-content {
+    display: flex;
+}
+
+.about-content i {
+    font-size: 100px;
+    margin-top: 5%;
+    color: rgb(46, 155, 205);
+}
+
+.about .about-content h3 {
+    color: white;
+    margin-top: 60px;
+    font-size: 40px;
+    color: #3B3B3B;
+    font-family: 'Barriecito', cursive;
+}
+
+.about .about-content p {
+    color: white;
+    margin-top: 180px;
+    margin-left: -600px;
+    font-size: 15px;
+    /* color: rgb(17, 51, 66); */
+    line-height: 25px;
+    /* background: linear-gradient(rgb(46,155,205),blue); */
+}
+
+
+/* model section */
+
+/* first */
+.first-model {
+    background-image: url(./model1-img.webp);
+    height: 628px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.h3 {
+    color: #3B3B3B;
+    font-size: 40px;
+}
+
+.image {
+    height: 90px;
+}
+
+.model1-btn {
+    border: none;
+    background-color: #3B3B3B;
+    height: 50px;
+    width: 200px;
+    font-weight: bolder;
+    border-radius: 35px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Barriecito', cursive;
+}
+
+.model1-btn:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+
+.first-model {
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.first-content {
+    background-color: black;
+    height: 250px;
+}
+
+.first-logo {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* second */
+.second-model {
+    background-image: url(./model2-back.webp);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 180px;
+    padding-left: 150px;
+}
+
+.model2-btn {
+    border: none;
+    background-color: #3B3B3B;
+    height: 50px;
+    width: 200px;
+    font-weight: bolder;
+    border-radius: 35px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Barriecito', cursive;
+}
+
+.model2-btn:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+
+.price-btn {
+    border: none;
+    background-color: green;
+    height: 50px;
+    width: 220px;
+    font-weight: bolder;
+    border-radius: 35px;
+    margin-top: 80px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* .price-btn:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+} */
+
+
+/* third */
+.third-model {
+    background-image: url(./model3-back.webp);
+    height: 588px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 140px;
+    padding-left: 100px;
+}
+
+/* careeer section */
+
+.career {
+    background-image: url(./career-img1.png);
+    height: 580px;
+    /* height: 550px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: left;
+}
+
+.career img {
+    height: 250px;
+    margin-top: 110px;
+    margin-left: 80px;
+}
+
+.career-content h3 {
+    color: #3B3B3B;
+    font-size: 40px;
+    font-family: 'Barriecito', cursive;
+}
+
+.career-btn button {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 35px;
+    font-weight: bold;
+    font-family: 'Barriecito', cursive;
+    margin-left: 30px;
+}
+
+.career-btn button:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+
+.career-content {
+    display: flex;
+}
+
+.career-content h3 {
+    margin-top: 10%;
+    margin-left: 200px;
+}
+
+.career-content .career-btn {
+    margin-top: 25%;
+    /* margin-right: 200px; */
+    margin-left: -650px;
+}
+
+/* career2 */
+
+.career2 {
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+    margin-bottom: 1px;
+}
+
+.career2 .career2-content h3 {
+    color: white;
+    margin-left: 180px;
+    font-family: 'Barriecito', cursive;
+}
+
+.career2 .career2-content p {
+    color: white;
+    /* font-size: large; */
+    margin-left: 100px;
+    padding: 60px;
+}
+
+.career2-content .career2-logo .first li {
+    color: white;
+    /* font-size: large; */
+    margin-left: 40px;
+}
+
+.career2-content .career2-logo .second li {
+    color: white;
+}
+
+.career2-content .career2-logo .first li i {
+    font-size: 15px;
+    color: rgb(31, 148, 16);
+    padding: 10px;
+}
+
+.career2-content .career2-logo .second li i {
+    font-size: 15px;
+    color: rgb(31, 148, 16);
+    padding: 10px;
+}
+
+.career2-logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* footer section */
+
+
+/* footer 1 */
+.footer1 {
+    background-color: #222222;
+    text-align: center;
+    margin-bottom: 2px;
+    height: 120px;
+}
+
+.follow {
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: 'Barriecito', cursive;
+}
+
+.footer1 .sm a i {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.footer1 .sm a i:hover {
+    background-color: rgb(31, 148, 16);
+    border: 2px solid rgb(31, 148, 16);
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+
+/* footer 2 */
+.footer2 {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 2px;
+    height: 350px;
+}
+
+.footer2 .one p {
+    padding-top: 40px;
+}
+
+.footer2 .two .pro {
+    padding-top: 70px;
+}
+
+.footer2 .two {
+    /* margin-top: 100px; */
+}
+
+.footer2 .three .more {
+    padding-top: 70px;
+}
+
+.footer2 .three {
+    margin-top: 60px;
+}
+
+.footer2 .four .connect {
+    padding-top: 70px;
+}
+
+.footer2 .four {
+    padding-bottom: 32px;
+}
+
+p {
+    line-height: 30px;
+}
+
+.pro {
+    line-height: 30px;
+}
+
+.more {
+    line-height: 30px;
+}
+
+.connect {
+    line-height: 30px;
+}
+
+.four h4 {
+    color: rgb(31, 148, 16);
+}
+
+.three h4 {
+    color: rgb(31, 148, 16);
+}
+
+.two h4 {
+    color: rgb(31, 148, 16);
+}
+
+/* footer 3 */
+
+.footer3 {
+    background-color: #222222;
+}
+
+.footer3 .top {
+    /* padding-top: 50px; */
+}
+
+.footer3 p {
+    /* padding-top: 20px; */
+    margin-left: 150px;
+}
+
+.footer3 h3 {
+    margin-left: 150px;
+    padding-bottom: 30px;
+}
+
+.footer h3 a {
+    color: rgb(31, 148, 16);
+}
+
+.footer h3 a:hover {
+    color: white;
+}
+
+
+/* media query */
+
+@media(max-width:999px) {
+
+    .home-main {
+        display: block;
+    }
+
+    .about-content {
+        display: block;
+    }
+
+    .leader {
+        display: block;
+    }
+
+    .model {
+        display: block;
+    }
+
+    .career-content {
+        display: block;
+    }
+
+    .career2 {
+        display: block;
+    }
+
+    .footer {
+        display: block;
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+
+    .footer-row {
+        display: block;
+    }
+
+    #check-box:checked~.main .nav-bar .list {
+        left: 0px;
+    }
+
+    .list {
+        position: absolute;
+        width: 200px;
+        height: 400px;
+        left: -1300px;
+        background-color: rgb(255, 255, 255);
+        top: 100px;
+        border-radius: 15px;
+        box-shadow: 2px 3px 4px black;
+        margin-left: 530px;
+
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .list {
+        flex-direction: column;
+
+    }
+
+    .list li a {
+        color: black;
+
+    }
+
+    .list li {
+        margin-top: 20px;
+    }
+}
